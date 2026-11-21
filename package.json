@@ -1,0 +1,22 @@
+{
+  "name": "backend-understanding",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Notes and small runnable examples for understanding backend concepts",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "http:server": "node examples/http/server.js",
+    "http:client": "node examples/http/client.js",
+    "tcp:server": "node examples/tcp/echo-server.js",
+    "tcp:client": "node examples/tcp/echo-client.js",
+    "dns:lookup": "node examples/dns/lookup.js",
+    "rest:server": "node examples/rest/server.js",
+    "auth:server": "node examples/auth/server.js",
+    "db:demo": "node examples/databases/demo.js",
+    "cache:server": "node examples/caching/server.js",
+    "queue:demo": "node examples/queues/demo.js"
+  }
+}
