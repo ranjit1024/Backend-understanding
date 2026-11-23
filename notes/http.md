@@ -40,3 +40,5 @@ noraml req
 the flow is simple the idea behind is that 
 
 ## Caching 
+
+Http caching is one the oldest way to cache repose so that we can use that response in the next req without hitting the route again
